@@ -1,0 +1,8 @@
+S -> NP VP
+PP -> P NP
+NP -> Det N | NP PP
+VP -> V NP | VP PP
+Det -> 'my' | 'the'
+N -> 'dog' | 'toy' | 'treat' | 'bed'
+V -> 'chewed' | 'ate'
+P -> 'on' | 'in'
