@@ -1,5 +1,5 @@
 # Parsing
-This script takes a CFG grammar and a set of sentences and returns all possible parses of those sentences using the CKY algorithm. If the CFG is not already in Chmosky Normal Form, it will be converted before the sentences are parsed, and the new CNF grammar will be written to a file named 'converted_cnf.txt'. The final parses will be written to 'parses.txt'.
+This script takes a CFG grammar and a set of sentences and returns all possible parses of those sentences using the CKY algorithm. If the CFG is not already a CNF, it will be converted before the sentences are parsed, and the new CNF grammar will be written to a file named 'converted_cnf.txt'. The final parses will be written to 'parses.txt'.
 
 CKY.py contains the classes to convert the CFG and for the CKY algorithm. In order to actually parse sentences, run the run_cky.py script. This takes two command line arguments, the first is the file containing the input CFG, and the second is the file containing the sentences to be parsed. So to run the script with the example files provided, you would need: python3 run_cky.py test_cfg.txt sentences.txt.
 
